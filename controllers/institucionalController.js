@@ -1,4 +1,3 @@
-  
 const institucionalController = {
     index: (request, response) => {
         return response.render('index', { titulo: 'Home' });
@@ -15,7 +14,6 @@ const institucionalController = {
 }
 
 module.exports = institucionalController;
-
 
 //response é a resposta para o usuario
 // o parametro é qual view vc quer renderizar tipo 'index', 'sobre', 'servicos' e etc...

@@ -1,10 +1,10 @@
-
 const express = require('express');
 const router = express.Router();
 const petsController = require('../controllers/petsController');
 const institucionalController = require('../controllers/institucionalController');
 
-// rotas para paginas institucionais:
+// rotas para paginas institucionais
+
 // http://localhost:3000/
 router.get('/', institucionalController.index);
 
