@@ -158,6 +158,7 @@ section.servicos .items .thumb {
     width: 100%;
     height: 200px;
     background-color: #fff;
+
 }
 
 section.sobre {
@@ -230,6 +231,9 @@ section.servicos-lista article .thumb {
     height: 250px;
     background-color: #555;
     margin: 0 30px 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 section.servicos-lista article .info {

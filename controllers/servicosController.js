@@ -1,5 +1,6 @@
 /** módulo instalado para manipulação de arquivos */
 const fs = require('fs');
+const { url } = require('inspector');
 /** modulo nativo para manipulação de arquivos */
 const path = require('path');
 /** modulo instalado para gerar id */
@@ -25,7 +26,7 @@ const servicosController = {
         let { nome, descricao, preco } = request.body;
 
         // pegando o nome do arquivo(upload)
-        let ilustracao = request.file.path;
+        let ilustracao = request.file.filename;
         /** adiciona o novo serviço no array */
         servicos.push({ id: uuid(), nome, descricao, preco, ilustracao });
         /** converter o array para json */
@@ -37,13 +38,46 @@ const servicosController = {
         return response.redirect('/admin/servicos');
     },
 
-    show: (request, response) => {
-        // console.log(request.params);
-        // pegando parametro nome da rota /servicos/:nome
-        const {nome} = request.params;
+    editar: (request, response) => {
+        // pegando parametro por meio URL é usado o .params e pelo form é .body
+        let {id} = request.params;
 
-        return response.send(`exibindo detalhes do serviço ${nome}`);
+        // pegando servicos dentro do JSON e ver se é igual ao id que foi procurado na URL
+        let servicoEncontrado = servicos.find(servico => servico.id == id);
+        // renderiza a view e manda titulo e objeto do servico
+        return response.render('servicosEditar', {titulo: 'Editar Servicos', servico: servicoEncontrado })
+
+    },
+
+    atualizar: (request, response) => {
+        // pegando aporametro id da url
+        let {id} = request.params;
+        // trazendo informaçoes do formulario
+        let {nome, descricao, preco} = request.body;
+        // busca o servico pela id
+        let servicoEncontrado = servicos.find(servico => servico.id == id);
+        // atribuir os novos valores ao servicoEncontrado
+        servicoEncontrado.descricao = descricao;
+        // atribuir os novos valores ao servicoEncontrado
+        servicoEncontrado.nome = nome;
+        // atribuir os novos valores ao servicoEncontrado
+        servicoEncontrado.preco = preco;
+        
+        // verifica se tem uma nova imagem antes de atribuir 
+        if(request.file){
+            servicoEncontrado.ilustracao = request.file.filename;
+        }
+
+                /** converter o array para json */
+                let dadosJson = JSON.stringify(servicos);
+                /** salva json atualizado no arquivo */
+                fs.writeFileSync(servicosPath, dadosJson);
+        
+                /* redireciona para lista de serviços */
+                return response.redirect('/admin/servicos');
+
     }
+
 }
 
 module.exports = servicosController;
