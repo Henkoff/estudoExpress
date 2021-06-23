@@ -4,6 +4,8 @@ const multer = require('multer'); //chama o modulo multer para a rota/ upload de
 const path = require('path'); // chama modulo path que faz o caminho dos arquivos
 const router = express.Router(); // chama metodo que gerencia rotas
 const servicosController = require('../controllers/servicosController');
+const validaCadastroServico = require('../middlewares/validacao/servico');
+
 
     // configuração do multer
 const storage = multer.diskStorage({
@@ -36,14 +38,14 @@ router.get('/servicos', servicosController.index);
 router.get('/servicos/cadastro', servicosController.cadastro);
 
 /* http://localhost:3000/admin/servicos/cadastro */
-router.post('/servicos/cadastro', upload.single('ilustracao'), servicosController.salvar);
+router.post('/servicos/cadastro', validaCadastroServico, upload.single('ilustracao'), servicosController.salvar);
 
 // http://localhost:3000/admin/servicos/editar
-router.get('/servicos/editar/:id', servicosController.editar);
+router.get('/servicos/editar/:id',  servicosController.editar);
 
 // http://localhost:3000/admin/servicos/editar/:id/?_method=PUT
 // atualiza o cadastro e atualiza a imagem
-router.put('/servicos/editar/:id', upload.single('ilustracao'), servicosController.atualizar);
+router.put('/servicos/editar/:id',  upload.single('ilustracao'), validaCadastroServico, servicosController.atualizar);
 
 /* exporta as rotas */
 module.exports = router;

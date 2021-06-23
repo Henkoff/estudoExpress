@@ -1,0 +1,74 @@
+ O usuario acessou a url: /login 
+ O usuario acessou a url: / 
+ O usuario acessou a url: /favicon.ico 
+ O usuario acessou a url: /contato 
+ O usuario acessou a url: /servicos 
+ O usuario acessou a url: /sobre 
+ O usuario acessou a url: /favicon.ico 
+ O usuario acessou a url: /servicos 
+ O usuario acessou a url: /favicon.ico 
+ O usuario acessou a url: /favicon.ico 
+ O usuario acessou a url: / 
+ O usuario acessou a url: /favicon.ico 
+ O usuario acessou a url: /favicon.ico 'Time:', Date.now() 
+ O usuario acessou a url: /sobre 'Time:', Date.now() 
+ O usuario acessou a url: /favicon.ico 'Time:', Date.now() 
+ O usuario acessou a url: /servicos 'Time:', Date.now() 
+ O usuario acessou a url: /favicon.ico 'Time:', Date.now() 
+ O usuario acessou a url: /favicon.ico  
+ O usuario acessou a url: /
+ O usuario acessou a url: /favicon.ico
+ O usuario acessou a url: /favicon.ico
+ O usuario acessou a url: 1624319640961 
+ O usuario acessou a url: 1624319641670 
+ O usuario acessou a url: /favicon.ico1624319677243 
+ O usuario acessou a url: /sobre1624319678286 
+ O usuario acessou a url: /servicos1624319678960 
+ O usuario acessou a url: /favicon.ico1624319679686 
+ O usuario acessou a url: /contato1624319679715 
+ O usuario acessou a url: /favicon.ico1624319680443 
+ O usuario acessou a url: /favicon.ico1624319697153 
+ O usuario acessou a url: /sobre 1624319703858 
+ O usuario acessou a url: /favicon.ico 1624319704573 
+ O usuario acessou a url: /favicon.ico 1624320078385 
+ O usuario acessou a url: / 1624403341195 
+ O usuario acessou a url: /favicon.ico 1624403342351 
+ O usuario acessou a url: /admin/servicos 1624403719117 
+ O usuario acessou a url: /favicon.ico 1624403719962 
+ O usuario acessou a url: /admin/servicos/editar/2bd7cc8c-d176-41e1-8d60-f9b5806e8692 1624403722050 
+ O usuario acessou a url: /favicon.ico 1624403722773 
+ O usuario acessou a url: /admin/servicos/editar/2bd7cc8c-d176-41e1-8d60-f9b5806e8692/?_method=PUT 1624403732751 
+ O usuario acessou a url: /admin/servicos 1624403732788 
+ O usuario acessou a url: /favicon.ico 1624403733501 
+ O usuario acessou a url: /admin/servicos/editar/2bd7cc8c-d176-41e1-8d60-f9b5806e8692 1624404370170 
+ O usuario acessou a url: /favicon.ico 1624404371199 
+ O usuario acessou a url: /admin/servicos/editar/2bd7cc8c-d176-41e1-8d60-f9b5806e8692/?_method=PUT 1624404384926 
+ O usuario acessou a url: /admin/servicos 1624404384942 
+ O usuario acessou a url: /favicon.ico 1624404385642 
+ O usuario acessou a url: /admin/servicos/editar/2bd7cc8c-d176-41e1-8d60-f9b5806e8692 1624404470305 
+ O usuario acessou a url: /favicon.ico 1624404471180 
+ O usuario acessou a url: /admin/servicos/editar/2bd7cc8c-d176-41e1-8d60-f9b5806e8692/?_method=PUT 1624404475546 
+ O usuario acessou a url: /admin/servicos 1624404475562 
+ O usuario acessou a url: /favicon.ico 1624404476202 
+ O usuario acessou a url: /admin/servicos 1624405224280 
+ O usuario acessou a url: /favicon.ico 1624405225193 
+ O usuario acessou a url: /admin/servicos/editar/2bd7cc8c-d176-41e1-8d60-f9b5806e8692 1624405226509 
+ O usuario acessou a url: /favicon.ico 1624405226589 
+ O usuario acessou a url: / 1624405227910 
+ O usuario acessou a url: /favicon.ico 1624405228602 
+ O usuario acessou a url: /favicon.ico 1624405259360 
+ O usuario acessou a url: /admin/servicos 1624406183593 
+ O usuario acessou a url: /favicon.ico 1624406184580 
+ O usuario acessou a url: /admin/servicos/editar/2bd7cc8c-d176-41e1-8d60-f9b5806e8692 1624406185068 
+ O usuario acessou a url: /admin/servicos/editar/2bd7cc8c-d176-41e1-8d60-f9b5806e8692 1624406186895 
+ O usuario acessou a url: /admin/servicos/editar/2bd7cc8c-d176-41e1-8d60-f9b5806e8692 1624406273058 
+ O usuario acessou a url: /favicon.ico 1624406274014 
+ O usuario acessou a url: /admin/servicos/editar/2bd7cc8c-d176-41e1-8d60-f9b5806e8692/?_method=PUT 1624406275671 
+ O usuario acessou a url: /admin/servicos/editar/2bd7cc8c-d176-41e1-8d60-f9b5806e8692/?_method=PUT 1624406303684 
+ O usuario acessou a url: /admin/servicos/editar/2bd7cc8c-d176-41e1-8d60-f9b5806e8692/?_method=PUT 1624406607042 
+ O usuario acessou a url: /admin/servicos/editar/2bd7cc8c-d176-41e1-8d60-f9b5806e8692/?_method=PUT 1624406607543 
+ O usuario acessou a url: /admin/servicos/editar/2bd7cc8c-d176-41e1-8d60-f9b5806e8692/?_method=PUT 1624406622394 
+ O usuario acessou a url: /admin/servicos 1624406622417 
+ O usuario acessou a url: /favicon.ico 1624406623297 
+ O usuario acessou a url: /admin/servicos/editar/2bd7cc8c-d176-41e1-8d60-f9b5806e8692 1624406624311 
+ O usuario acessou a url: /favicon.ico 1624406624992 
