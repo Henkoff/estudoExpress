@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
-const petsController = require('../controllers/petsController');
 const institucionalController = require('../controllers/institucionalController');
+const usuariosController = require('../controllers/usuariosController');
 
 // rotas para paginas institucionais
 
@@ -17,10 +17,11 @@ router.get('/servicos', institucionalController.servicos);
 // http://localhost:3000/contato
 router.get('/contato', institucionalController.contato);
 
+// http://localhost:3000/login
+router.get('/login', usuariosController.login);
 
-// rota para /pets que retorna o método index da petsController
-router.get('/pets', petsController.index);
+// http://localhost:3000/login
+router.get('/login', usuariosController.cadastro);
 
-router.get('/pets/:nome', petsController.show);
 
 module.exports = router;

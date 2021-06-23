@@ -1,9 +1,15 @@
-var express = require('express');
-var router = express.Router();
+const express = require('express');
+const router = express.Router();
+const institucionalController = require('../controllers/institucionalController');
+const usuariosController = require('../controllers/usuariosController');
 
-//* HTTPS://LOCALHOST:3000/USERS/INICIO. */
-router.get('/inicio', function(req, res, next) {
-  res.send('respond with a resource');
-});
+// http://localhost:3000/login
+router.get('/login', usuariosController.login);
+
+// http://localhost:3000/users/cadastro
+router.post('/cadastro', usuariosController.salvar);
+
+// http://localhost:3000/users/cadastro
+router.get('/cadastro', usuariosController.cadastro);
 
 module.exports = router;

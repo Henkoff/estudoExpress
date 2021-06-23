@@ -72,3 +72,24 @@
  O usuario acessou a url: /favicon.ico 1624406623297 
  O usuario acessou a url: /admin/servicos/editar/2bd7cc8c-d176-41e1-8d60-f9b5806e8692 1624406624311 
  O usuario acessou a url: /favicon.ico 1624406624992 
+ O usuario acessou a url: /login 1624408786849 
+ O usuario acessou a url: /favicon.ico 1624408787783 
+ O usuario acessou a url: /cadastro 1624408807616 
+ O usuario acessou a url: /cadastro 1624408829142 
+ O usuario acessou a url: /cadastro 1624408868049 
+ O usuario acessou a url: /users/cadastro 1624408880119 
+ O usuario acessou a url: /users/cadastro 1624408903505 
+ O usuario acessou a url: /favicon.ico 1624408904440 
+ O usuario acessou a url: /login 1624408905992 
+ O usuario acessou a url: /favicon.ico 1624408906675 
+ O usuario acessou a url: /cadastro 1624408906983 
+ O usuario acessou a url: /cadastro 1624408907392 
+ O usuario acessou a url: /cadastro 1624408907552 
+ O usuario acessou a url: /cadastro 1624408920312 
+ O usuario acessou a url: /favicon.ico 1624408920325 
+ O usuario acessou a url: /favicon.ico 1624408920913 
+ O usuario acessou a url: /login 1624408923072 
+ O usuario acessou a url: /favicon.ico 1624408923749 
+ O usuario acessou a url: /cadastro 1624408924016 
+ O usuario acessou a url: /favicon.ico 1624408924083 
+ O usuario acessou a url: /favicon.ico 1624409055147 
